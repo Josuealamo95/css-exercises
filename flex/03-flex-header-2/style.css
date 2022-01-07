@@ -15,26 +15,21 @@ body {
   padding: 8px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.left-side {
+.left-side, .right-side  {
   display: flex;
-  gap: 8px;
+  gap: 16px;
   padding: 0;
 }
 
-.right-side {
-  display: flex;
-  gap: 8px;
-  padding: 0;
-}
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
   height:  48px;
-  align-self: center;
 }
 
 .logo {
@@ -63,5 +58,5 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
-  gap: 8px;
+  gap: 16px;
 }
