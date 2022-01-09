@@ -29,18 +29,28 @@ input {
   margin-bottom: 16px;
 }
 
-.header, .footer {
-display: flex;
-justify-content: space-between;
-}
-
 ul {
   display: flex;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+  gap: 16px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  }
+
+.footer {
+  color: gray;
+} 
+  
 .content {
   display: flex;
   flex-direction: column;
