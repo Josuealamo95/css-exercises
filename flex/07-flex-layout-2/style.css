@@ -28,8 +28,15 @@ body {
   flex: 1;
 }
 
+.cards {
+  width: 
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .sidebar {
   width: 300px;
+  flex-shrink: 0;
   background: royalblue;
 }
 
