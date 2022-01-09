@@ -33,7 +33,7 @@ ul {
   display: flex;
   list-style-type: none;
   margin: 0px;
-  padding: 0px;
+  padding: 16px;
   gap: 16px;
 }
 
@@ -48,9 +48,10 @@ a {
   }
 
 .footer {
+  background-color: rgb(231, 230, 230);
   color: gray;
-} 
-  
+}
+
 .content {
   display: flex;
   flex-direction: column;
