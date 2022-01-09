@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  width: 100px;
+  max-width: 100px;
   height: 100px;
 }
 
@@ -12,10 +12,18 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 media {
  display: flex;
+ justify-content: center;
+ gap: 52px;
+}
+
+media * {
+  width: 200px;
+  text-align: center;
 }
 
 /* do not edit this footer */
