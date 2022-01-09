@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -39,7 +40,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgba(43, 42, 42, 0.795);
 }
 
 .header, .footer {
@@ -49,7 +50,6 @@ a {
 
 .footer {
   background-color: rgb(231, 230, 230);
-  color: gray;
 }
 
 .content {
