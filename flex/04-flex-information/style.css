@@ -16,13 +16,18 @@ img {
   height: 100px;
 }
 
-.all-text {
+all-images {
+  display: flex;
+  justify-content: center;
+}
+
+all-text {
   display: flex;
   gap: 52px;
   justify-content: center;
 }
 
-.all-text .text {
+all-text .text {
   width: 200px;
 }
 
